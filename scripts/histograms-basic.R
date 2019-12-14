@@ -4,7 +4,7 @@ setwd("~/Projects/fixpeaks/enriched/")
 
 plot_multi_histogram <- function(df, feature, label_column,title) {
   plt <- ggplot(df, aes(x=eval(parse(text=feature)), fill=eval(parse(text=label_column)))) +
-    geom_density(alpha=0.7) + coord_cartesian( ylim = c(0,.009)) + 
+    geom_density(alpha=0.7) + #coord_cartesian( ylim = c(0,.009)) + 
     geom_vline(aes(xintercept=mean(eval(parse(text=feature)))), linetype="dashed", size=.5) +
     labs(x=feature, y = "")
   p <- plt + guides(fill=guide_legend(title=label_column)) + ggtitle(title,) 
@@ -12,7 +12,7 @@ plot_multi_histogram <- function(df, feature, label_column,title) {
 }
 
 #args <- c('~/Projects/fixpeaks/enriched/N2_OD1_enriched.bed','~/Projects/fixpeaks/enriched/qN2_OD1_enriched.bed')
-files <- list.files('~/Projects/fixpeaks/enriched/',full.names = FALSE)
+files <- list.files('~/Projects/fixpeaks/sums-enriched/',full.names = FALSE)
 n <- length(files)/2
 plotlist <- list()
 for (i in 1:n){
