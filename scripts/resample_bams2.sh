@@ -1,0 +1,13 @@
+samtools	view	-S	-s	0.71	-b	/data/diana/DKS13_YNBChIPseq/OD1/DKS13_WCE_OD1_YNB_sorted.bam	-o	/data/daniela/Projects/fixpeaks/resampled-bams2/DKS13_WCE_OD1_YNB_sorted_RESAMPLED.bam
+samtools	view	-S	-s	0.7	-b	/data/diana/DKS13_YNBChIPseq/OD1/DKS13_qC1_OD1_YNB_sorted.bam	-o	/data/daniela/Projects/fixpeaks/resampled-bams2/DKS13_qC1_OD1_YNB_sorted_RESAMPLED.bam
+samtools	view	-S	-s	0.68	-b	/data/diana/DKS13_YNBChIPseq/OD1/DKS13_qL2_OD1_YNB_sorted.bam	-o	/data/daniela/Projects/fixpeaks/resampled-bams2/DKS13_qL2_OD1_YNB_sorted_RESAMPLED.bam
+samtools	view	-S	-s	0.64	-b	/data/diana/DKS13_YNBChIPseq/OD1/DKS13_N2_OD1_YNB_sorted.bam	-o	/data/daniela/Projects/fixpeaks/resampled-bams2/DKS13_N2_OD1_YNB_sorted_RESAMPLED.bam
+samtools	view	-S	-s	0.61	-b	/data/diana/DKS13_YNBChIPseq/OD1/DKS13_K_OD1_YNB_sorted.bam	-o	/data/daniela/Projects/fixpeaks/resampled-bams2/DKS13_K_OD1_YNB_sorted_RESAMPLED.bam
+samtools	view	-S	-s	0.61	-b	/data/diana/DKS13_YNBChIPseq/OD1/DKS13_C1_OD1_YNB_sorted.bam	-o	/data/daniela/Projects/fixpeaks/resampled-bams2/DKS13_C1_OD1_YNB_sorted_RESAMPLED.bam
+samtools	view	-S	-s	0.58	-b	/data/diana/DKS13_YNBChIPseq/OD1/DKS13_qC2_OD1_YNB_sorted.bam	-o	/data/daniela/Projects/fixpeaks/resampled-bams2/DKS13_qC2_OD1_YNB_sorted_RESAMPLED.bam
+samtools	view	-S	-s	0.58	-b	/data/diana/DKS13_YNBChIPseq/OD1/DKS13_N1_OD1_YNB_sorted.bam	-o	/data/daniela/Projects/fixpeaks/resampled-bams2/DKS13_N1_OD1_YNB_sorted_RESAMPLED.bam
+samtools	view	-S	-s	0.55	-b	/data/diana/DKS13_YNBChIPseq/OD1/DKS13_C2_OD1_YNB_sorted.bam	-o	/data/daniela/Projects/fixpeaks/resampled-bams2/DKS13_C2_OD1_YNB_sorted_RESAMPLED.bam
+samtools	view	-S	-s	0.54	-b	/data/diana/DKS13_YNBChIPseq/OD1/DKS13_qL1_OD1_YNB_sorted.bam	-o	/data/daniela/Projects/fixpeaks/resampled-bams2/DKS13_qL1_OD1_YNB_sorted_RESAMPLED.bam
+samtools	view	-S	-s	0.54	-b	/data/diana/DKS13_YNBChIPseq/OD1/DKS13_qN1_OD1_YNB_sorted.bam	-o	/data/daniela/Projects/fixpeaks/resampled-bams2/DKS13_qN1_OD1_YNB_sorted_RESAMPLED.bam
+samtools	view	-S	-s	0.46	-b	/data/diana/DKS13_YNBChIPseq/OD1/DKS13_L1_OD1_YNB_sorted.bam	-o	/data/daniela/Projects/fixpeaks/resampled-bams2/DKS13_L1_OD1_YNB_sorted_RESAMPLED.bam
+samtools	view	-S	-s	0.29	-b	/data/diana/DKS13_YNBChIPseq/OD1/DKS13_qN2_OD1_YNB_sorted.bam	-o	/data/daniela/Projects/fixpeaks/resampled-bams2/DKS13_qN2_OD1_YNB_sorted_RESAMPLED.bam
